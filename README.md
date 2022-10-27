@@ -49,3 +49,13 @@ function thirdLargest(arr, arr_size)
                  10, 34, 16,28];
     let n = arr.length;
     thirdLargest(arr, n);
+    
+    
+    
+    // doublicate value
+ const arry = [1, 2, 1, 3, 4, 3, 5];
+
+  let tofindDuplicates = (arry) =>
+    arry.filter((item, index) => arry.indexOf(item) !== index);
+  const duplicateElements = tofindDuplicates(arry);
+  console.log(duplicateElements);
